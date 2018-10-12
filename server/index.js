@@ -17,7 +17,10 @@ massive(process.env.CONNECTION_STRING)
     console.log(err);
 })
 
-
+app.post(`/api/login`, (req, res)=>{
+    let {username, password} = req.body;
+    
+})
 
 
 
