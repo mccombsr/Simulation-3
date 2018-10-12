@@ -9,7 +9,7 @@ export class Dashboard extends Component{
         return(
             <div>
                 <h1>Dashboard</h1>
-                <input type="text" placeholder="Search by title" onChange={updateSearch} />
+                <input type="text" placeholder="Search by title" onChange={this.props.updateSearch} />
             </div>
         )
     }
